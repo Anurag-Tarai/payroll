@@ -4,74 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payroll Management System</title>
+    <link rel="stylesheet" href="login.css">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        #container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        #login, #signup {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            font-size: 16px;
-            text-decoration: none;
-            color: #fff;
-            background-color: #3498db;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        #login:hover, #signup:hover {
-            background-color: #203b4d;
-        }
-
-        form {
-            margin-top: 20px;
-            display: none;
-        }
-
-        form input {
-            width: 100%;
-            padding: 12px;
-            margin-bottom: 15px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        form button {
-            width: 100%;
-            padding: 12px;
-            background-color: #3498db;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #1f2b33;
-        }
+       
     </style>
 </head>
 <body>
@@ -90,7 +25,7 @@
             <br>
             <input type="password" placeholder="Password" required>
             <br>
-            <button type="submit"><a href="employee.html">Login</a></button>
+            <button id="UserLogin" type="submit">Login</button>
             
         </form>
 
@@ -124,60 +59,6 @@
             <button type="submit">Signup</button>
         </form>
     </div>
-
-    <script>
-        // Functions for showing and hiding forms
-        function showLoginForm() {
-            hideAllForms();
-            document.getElementById("userLoginForm").style.display = "block";
-        }
-
-        function showSignupForm() {
-            hideAllForms();
-            document.getElementById("userSignupForm").style.display = "block";
-        }
-
-        function showAdminLoginForm() {
-            hideAllForms();
-            document.getElementById("adminLoginForm").style.display = "block";
-        }
-
-        function showAdminSignupForm() {
-            hideAllForms();
-            document.getElementById("adminSignupForm").style.display = "block";
-        }
-
-        function hideAllForms() {
-            var forms = document.querySelectorAll('form');
-            forms.forEach(form => {
-                form.style.display = 'none';
-            });
-        }
-
-        // Placeholder functions for user and admin login/signup
-        function userLogin(event) {
-            event.preventDefault();
-            alert('User login functionality placeholder.');
-            // Implement actual user login logic here
-        }
-
-        function userSignup(event) {
-            event.preventDefault();
-            alert('User signup functionality placeholder.');
-            // Implement actual user signup logic here
-        }
-
-        function adminLogin(event) {
-            event.preventDefault();
-            alert('Admin login functionality placeholder.');
-            // Implement actual admin login logic here
-        }
-
-        function adminSignup(event) {
-            event.preventDefault();
-            alert('Admin signup functionality placeholder.');
-            // Implement actual admin signup logic here
-        }
-    </script>
+    <script src="login.js"></script>
 </body>
 </html>
