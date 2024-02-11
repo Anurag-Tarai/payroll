@@ -13,7 +13,6 @@ body {
 }
 
 .vertical-nav {
-    background-color: #044c54;
     padding: 15px;
     width: 150px;
     position: fixed;
@@ -21,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 1px;
+    
 }
 
 .profile-info {
@@ -50,8 +49,9 @@ body {
 }
 
 .vertical-nav a {
+    font-weight: 700;
     text-decoration: none;
-    color: white;
+    color: #6600ff;
     padding: 10px;
     display: block ;
     border-radius: 5px;
@@ -59,11 +59,14 @@ body {
 }
 
 .vertical-nav a:hover {
-    background-color: #141f2a;
+    background-color: #6600ff;
+    color: white;
 }
 
 .content {
+    width: 700px;
     font-size: 60px;
     margin-left: 270px;
     padding: 20px;
+    border:5px solid  #6600ff ;
 }
