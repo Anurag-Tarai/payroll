@@ -19,11 +19,11 @@ nav {
   text-align: right;
 }
 nav img{
-  height: 150px;
-  width: 300px;
+  height: 200px;
+  width: 350px;
   position: absolute;
-  top: 8%;
-  left: 14%;
+  top: 14%;
+  left: 2%;
   object-fit: cover;
   object-position: bottom;
   border-radius: 10px;
@@ -46,9 +46,14 @@ section {
   border-radius: 10px;
 }
 #welcome{
+   
     background: transparent;
     margin-top: 150px;
 
+}
+#welcome h2{
+  height: 80px;
+  text-transform: uppercase;
 }
 #about{
     background: transparent;
@@ -62,7 +67,7 @@ section {
 }
 h1 {
   color: #1c2d31;
-  font-size: 80px;
+  font-size: 150px;
   margin-bottom: 20px;
   text-transform:uppercase;
 }
@@ -76,6 +81,7 @@ h2 {
 p {
   font-size: 18px;
   margin-bottom: 20px;
+  color: #0c2992;
 }
 
 a {
@@ -98,3 +104,35 @@ a:hover {
   border-radius: 10px;
   margin-top: 20px;
 }
+#bar1{
+  height: 150vh;
+  width: 80px;
+  background:  #6600ff;
+  position: absolute;
+  top: 300px;
+  left: 80px;
+  border-radius: 5px;
+}
+#bar2{
+  height: 80px;
+  width: 500px;
+  background:  #6600ff;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  
+}
+#bar2 h2{
+  font-size: 70px;
+  color: white;
+  margin: 0 30px;
+}
+#bar2:hover{
+  background: white;
+  transition: background-color 0.3 ease;
+}
+#bar2 h2:hover{
+  color:#6600ff;
+}
+
