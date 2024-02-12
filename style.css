@@ -18,12 +18,11 @@ nav {
   padding: 10px;
   text-align: right;
 }
-nav img{
+#img0{
   height: 200px;
   width: 350px;
   position: absolute;
-  top: 14%;
-  left: 2%;
+  margin: 90px 0px 0px 490px;
   object-fit: cover;
   object-position: bottom;
   border-radius: 10px;
@@ -50,7 +49,6 @@ section {
    
     background: transparent;
     margin-top: 150px;
-
 }
 #welcome h2{
   height: 80px;
@@ -58,6 +56,7 @@ section {
 }
 #about{
     background: transparent;
+    
 }
 #contact{
     background: transparent;
@@ -110,7 +109,7 @@ a:hover {
   width: 80px;
   background:  #6600ff;
   position: absolute;
-  top: 300px;
+  top: 150px;
   left: 80px;
   border-radius: 5px;
 }

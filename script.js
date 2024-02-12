@@ -11,11 +11,11 @@ function hoverEffectChangeImg(){
         bar2.style.backgroundColor = "white"
         h2.style.color =' #6600ff'
         if (i==0){
-            img.src= "https://images.unsplash.com/photo-1511268594014-0e9d3ea5c33e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zmxhc2h8ZW58MHx8MHx8fDA%3D"
+            img.src= "https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             i+=1
         }
         else if(i==2){
-            img.src= "https://images.unsplash.com/photo-1482005253821-5d6a2c685879?q=80&w=2057&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            img.src= "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D"
             i+=1
         }
 
@@ -25,11 +25,11 @@ function hoverEffectChangeImg(){
         bar2.style.backgroundColor = "#6600ff"
         h2.style.color ='white'
         if(i==1){
-            img.src= "https://images.unsplash.com/photo-1574417836112-fda6a03dae97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZsYXNofGVufDB8fDB8fHww"
+            img.src= "https://images.unsplash.com/photo-1560264280-88b68371db39?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwd29ya3xlbnwwfHwwfHx8MA%3D%3D"
             i+=1
         }
         else if(i==3){
-            img.src= "https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D"
+            img.src= "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2ZmaWNlfGVufDB8fDB8fHww"
             i=0;
         }
      })
